@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingTop="8dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/icon_group"/>
+
+    <TextView
+        android:id="@+id/item_group_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="group id"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_alignLeft="@+id/item_icon"/>
+
+    <TextView
+        android:id="@+id/item_group_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#555555"
+        android:layout_marginLeft="60dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/item_group_id"
+        android:text="0 devices(s)" />
+
+    <TextView
+        android:id="@+id/item_power_on"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#AA0000"
+        android:background="@color/list_light"
+        android:layout_gravity = "center"
+        android:text = "ON"/>
+    <TextView
+        android:id="@+id/item_power_off"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_gravity = "center"
+        android:background="@color/list_light"
+        android:textSize="18dp"
+        android:text = "OFF"/>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/app_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/icon_back"
+            android:layout_alignLeft="@+id/bluetoothlist_status"
+             />
+        <TextView android:id="@+id/bluetoothlist_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            android:textSize="20sp"
+            android:divider="#555555"
+            android:dividerHeight="1dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/under_colorbar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/unline"     />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/under_colorbar"
+        android:layout_marginTop="15dp"
+        android:scrollbars="vertical"
+        android:text="@string/app_help"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/iv_appversion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:background = "#EEEEEE"
+            android:layout_below="@id/tv_help"
+            android:text="@string/app_version"/>
+
+
+</LinearLayout>

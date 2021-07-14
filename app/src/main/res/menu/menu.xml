@@ -1,0 +1,12 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.skydoves.magiclight_ble_control.main.HomePageTabActivity" >
+
+    <item
+        android:id="@+id/toggleservice"
+        app:actionViewClass="android.widget.Switch"
+        app:showAsAction="ifRoom"
+        android:title="TODO" />
+</menu>

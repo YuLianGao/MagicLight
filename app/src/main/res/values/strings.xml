@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Diode Dynamics</string>
+
+    <string name="ble_not_supported">This device not support bluetooth service</string>>
+    <string name="ble_startfind">Searching devices...</string>>
+    <string name="ble_canceldfind">Canceled searching</string>>
+    <string name="ble_not_find">No bluetooth devices found</string>>
+    <string name="ble_canceled">You need to turn on the bluetooth service</string>>
+    <string name="ble_not_connected">Not connected with any bulbs</string>>
+    <string name="ble_selected">You have set up a Bluetooth connection device</string>>
+    <string name="ble_connect_success">Connected successful</string>>
+    <string name="ble_disconnected">Disconnected from device</string>>
+    <string name="ble_device_list">  Ungrouped Devices</string>>
+    <string name="unknown_service">unknown service</string>>
+    <string name="unknown_characteristic">unknown_characteristic</string>>
+    <string name="permission_request">The permission is required to run this app</string>>
+    <string name="permission_canceled">The permission is required to run this app</string>>
+
+    <string name="color_pick">COLOR</string>>
+    <string name="ble_sync">SYNC</string>>
+    <string name="ble_pattern">PATTERN</string>>
+    <string name="ble_custom">CUSTOM</string>>
+    <string name="ble_camera">CAMERA</string>>
+    <string name="red">R </string>>
+    <string name="custom_description">please click add button</string>
+    <string name="device_description">No device found. Please ensure device is powered and Location permission is enabled.</string>
+    <string name="app_help"><b> Diode Dynamics RGBW Bluetooth LED Controller. \n \n Getting Started \n</b>1. Make sure your controller is powered. You will need 12 volts and ground. \n 2. On your device, make sure Bluetooth is switched on. \n 3. You may need  to turn your device\'s location service on. \n 4. open the app, When powered, your controller should appear within 5 seconds. \n 5. Allow any permissions requested. The app needs permissions to save your custom modes, read colors through your camera, and use your mic to sync to music.\n\n<b>Trouble Connecting\n </b>1. Make sure the device is powered. If you are not sure about your power source, carefully hold input leads directly to your vehicle battery to test. \n 2. Make sure your location service and bluetooth is switch on. \n 3. If you still don\'t see the controller, and you are sure it is powered, try resetting it,by disconnecting power and reconnecting. \n 4. Try restarting your device, and reconnecting. \n 5. In open air, the controller should work from over 100 feet away. This will be reduced when going through walls, or if the controller is mounted behind metal body panels. If you find that the signal is weak, try repositioning the controller.\n\n <b>Using the Controller \n COLOR</b> The main menu! Press anywhere on the wheel, or directly in the middle for TRUE WHITE. You can also adjust brightness using the slider, or tap the R-G-B 0-255 readout to dial in an exact color. When you find something you like, press and hold one of the square Preset buttons on the bottom of the window. You can save up to five static colors, to easily access any time. \n <b>PATTERN</b> Easily access a nunber of preloaded patterns. Speed can be adjusted too. Don\'t see what you want? Head to the next tab to create your own! \n <b>CUSTOM</b> Click Add Mode, and create your own pattern. You can choose colors, speed, and mode to create the exact look you want. Save the mode, pick a custom name, and you can come back to it any time! \n <b>SYNC</b> This is a basic funtion that will flash the lights to any outside noise. Adjust the sensitivity of your mic. To sync to music directly from your device, click your device\'s Home button, then load a music player. The app will hear the sound directly from your speaker, and sync it up! \n <b>CAMERA</b> This fun feature allows you to point your camera at anything colorful, and the controller will try to match the color. Vibrant colors work best!\n\n <b>Using Multiple Controllers</b>\n Have more than one controller? You can Group them together, to control them together or independently. Up to four controllers can be connected and controlled at a time.\n On the main menu, click Add Group, and choose a name. Then tap and hold a controller, and select Add to Group. Repeat to create more groups, add more controllers to a group.\n\n For more tips, and to see the comtroller in action, check our videos on Youtube.\n\n For troubleshooting, please email contact@diodedynamics.com or call 314-20503033.\n\n Copyright Diode Dynamics, LLC.</string>
+    <string name="app_version">    App version 1.0.0   Privacy Policy</string>
+    <string name="sync_description">Tip:Click "Home" to go back to your home screen, the open a music app to play through your speaker, and sync with lights</string>
+</resources>

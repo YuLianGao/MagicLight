@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingTop="8dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/icon_led_rgb"/>
+
+    <TextView
+        android:id="@+id/item_bluetoothdevice_tv_deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="deviced id"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_alignLeft="@+id/item_icon"/>
+
+    <TextView
+        android:id="@+id/item_bluetoothdevice_tv_uuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#555555"
+        android:layout_marginLeft="60dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/item_bluetoothdevice_tv_deviceid"
+        android:text="uuid" />
+
+    <ImageView
+        android:id="@+id/item_power_on"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity = "center"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/icon_power_switch"/>
+
+</RelativeLayout>
